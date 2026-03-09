@@ -14,13 +14,13 @@ export function Hero() {
           <div className="flex flex-col gap-8 max-w-2xl">
             <Reveal>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-heading text-foreground leading-[1.1] tracking-tight">
-                Modern Accounting for Businesses That Want <span className="text-orange-500">Clarity</span>, <span className="text-orange-500">Control</span>, and Better Decisions
+                English-Speaking Accountant in Amsterdam for Businesses That Want <span className="text-orange-500">Clarity</span>, <span className="text-orange-500">Control</span>, and Better Decisions
               </h1>
             </Reveal>
 
             <Reveal delay={0.2}>
               <p className="text-lg md:text-xl text-muted-foreground max-w-lg leading-relaxed font-normal">
-                Accurate books, clear reporting, and practical guidance — so you always know where your business stands and what to do next.
+                Accurate bookkeeping, clear reporting, and practical guidance for expats, freelancers and growing businesses in the Netherlands. Always know where your business stands and what to do next.
               </p>
             </Reveal>
 

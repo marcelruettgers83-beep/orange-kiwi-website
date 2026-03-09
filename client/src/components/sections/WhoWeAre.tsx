@@ -10,7 +10,8 @@ export function WhoWeAre() {
                 <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl shadow-orange-900/5 aspect-[4/5] lg:aspect-square">
                     <img 
                       src={stockImage} 
-                      alt="Team meeting" 
+                      alt="Orange Kiwi accounting team meeting in Amsterdam"
+                      loading="lazy"
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
@@ -21,10 +22,10 @@ export function WhoWeAre() {
                 <Reveal delay={0.2}>
                     <span className="text-orange-600 font-bold tracking-wider text-sm uppercase mb-2 block">Who We Are</span>
                     <h2 className="text-4xl md:text-5xl font-bold font-heading leading-tight mb-6">
-                        A modern accounting partner for growing businesses
+                        A modern accounting partner for growing businesses in Amsterdam
                     </h2>
                     <p className="text-lg text-muted-foreground leading-relaxed">
-                        Running a business demands more than submitting returns. You need clean data, reliable insights, and someone who helps you make sense of the numbers.
+                        Running a business in the Netherlands demands more than submitting returns. You need clean data, reliable insights, and an English-speaking accountant who helps you make sense of the numbers.
                     </p>
                 </Reveal>
 

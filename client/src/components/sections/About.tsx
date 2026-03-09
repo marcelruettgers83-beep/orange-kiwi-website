@@ -13,7 +13,8 @@ export function About() {
               <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl shadow-orange-900/10 aspect-[4/5] max-w-md mx-auto lg:mx-0">
                 <img 
                   src={blairImage} 
-                  alt="Blair Bailey - Founder of Orange Kiwi" 
+                  alt="Blair Bailey - Founder of Orange Kiwi, English-speaking accountant in Amsterdam"
+                  loading="lazy"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -36,7 +37,7 @@ export function About() {
 
             <Reveal delay={0.3}>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                With years of experience in management accounting and cloud-based financial systems, Blair founded Orange Kiwi to help growing businesses take control of their finances.
+                With years of experience in management accounting and cloud-based financial systems, Blair founded Orange Kiwi in Amsterdam to help growing businesses and expats in the Netherlands take control of their finances.
               </p>
             </Reveal>
 
@@ -60,7 +61,7 @@ export function About() {
                 </div>
                 <div className="flex items-start gap-4 group">
                   <div className="w-2 h-2 rounded-full bg-orange-500 mt-2.5 shrink-0 group-hover:scale-125 transition-transform" />
-                  <span className="text-foreground/80">Based in the Netherlands, serving clients across Europe</span>
+                  <span className="text-foreground/80">Based in Amsterdam, serving expats, freelancers and businesses across the Netherlands and Europe</span>
                 </div>
               </div>
             </Reveal>
@@ -72,11 +73,13 @@ export function About() {
                   <img 
                     src={xeroBadge} 
                     alt="Xero Silver Partner" 
+                    loading="lazy"
                     className="h-12 object-contain opacity-80 hover:opacity-100 transition-opacity"
                   />
-                  <img 
-                    src={cimaBadge} 
-                    alt="CIMA - Chartered Institute of Management Accountants" 
+                  <img
+                    src={cimaBadge}
+                    alt="CIMA - Chartered Institute of Management Accountants"
+                    loading="lazy"
                     className="h-14 object-contain opacity-80 hover:opacity-100 transition-opacity"
                   />
                 </div>

@@ -19,7 +19,7 @@ export function FinalCTA() {
           
           <Reveal delay={0.3} width="100%">
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto font-light leading-relaxed">
-                Take the first step towards better financial control. Schedule a free consultation today.
+                Take the first step towards better financial control. Schedule a free consultation with your Amsterdam-based accounting partner today.
             </p>
           </Reveal>
           
