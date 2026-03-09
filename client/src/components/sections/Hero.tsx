@@ -14,7 +14,7 @@ export function Hero() {
           <div className="flex flex-col gap-8 max-w-2xl">
             <Reveal>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-heading text-foreground leading-[1.1] tracking-tight">
-                English-Speaking Accountant in Amsterdam for Businesses That Want <span className="text-orange-500">Clarity</span>, <span className="text-orange-500">Control</span>, and Better Decisions
+                Modern Accounting for Businesses That Want <span className="text-orange-500">Clarity</span>, <span className="text-orange-500">Control</span>, and Better Decisions
               </h1>
             </Reveal>
 
