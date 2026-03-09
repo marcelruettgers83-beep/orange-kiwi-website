@@ -1,0 +1,61 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  
+  <!-- Primary Meta Tags -->
+  <title>Orange Kiwi - Modern Accounting & Business Growth</title>
+  <meta name="title" content="Orange Kiwi - Modern Accounting & Business Growth" />
+  <meta name="description" content="Accurate books, clear reporting, and practical guidance for your business growth. Expert accounting services tailored for modern businesses." />
+  <meta name="keywords" content="Accounting, Bookkeeping, Business Growth, Financial Reporting, Modern Accounting, Orange Kiwi" />
+  <meta name="author" content="Orange Kiwi" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://orangekiwi.eu/" />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://orangekiwi.eu/" />
+  <meta property="og:title" content="Orange Kiwi - Modern Accounting & Business Growth" />
+  <meta property="og:description" content="Accurate books, clear reporting, and practical guidance for your business growth." />
+  <meta property="og:image" content="https://site-inspiration--mr1983.replit.app/opengraph.jpg" /> <!-- TODO: Replace with your actual OG Image URL -->
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://orangekiwi.eu/" />
+  <meta property="twitter:title" content="Orange Kiwi - Modern Accounting & Business Growth" />
+  <meta property="twitter:description" content="Accurate books, clear reporting, and practical guidance for your business growth." />
+  <meta property="twitter:image" content="https://site-inspiration--mr1983.replit.app/opengraph.jpg" /> <!-- TODO: Replace with your actual OG Image URL -->
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/assets/index-CNWnstPo.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-VLzhCp0a.css">
+  <!-- GEO & SEO Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AccountingService",
+    "name": "Orange Kiwi",
+    "image": "https://orangekiwi.eu/logo.png",
+    "@id": "https://orangekiwi.eu",
+    "url": "https://orangekiwi.eu",
+    "telephone": "+31 6 11003294",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Zeeburgerdijk",
+      "addressLocality": "Amsterdam",
+      "postalCode": "1093 RV",
+      "addressCountry": "NL"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "52.3650", /* Approximate for 1093 RV */
+      "longitude": "4.9350"
+    },
+    "priceRange": "$$",
+    "description": "Accurate books, clear reporting, and practical guidance for your business growth.",
+    "sameAs": [
+      "https://www.linkedin.com/company/orange-kiwi",
+      "https://twitter.com/orangekiwi"
+    ]
+  }
+  </script>
+</head>

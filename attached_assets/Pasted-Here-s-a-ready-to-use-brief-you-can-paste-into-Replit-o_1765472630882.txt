@@ -1,0 +1,260 @@
+Here’s a ready-to-use brief you can paste into Replit (or give to any dev/AI builder) to generate V1 of the site.
+
+---
+
+### PROJECT BRIEF – ORANGE KIWI WEBSITE V1
+
+**Goal:**
+Build a modern, responsive one-page website for **Orange Kiwi** (accounting / management accountancy firm).
+Design style inspired by the screenshot provided (card layout, big white space, curved cards, subtle shadows) — but using **orange as the main accent colour** instead of green.
+
+Use the copy provided below as the content for the first draft.
+
+---
+
+## 1. Tech & Layout
+
+* Stack: HTML + CSS (and minimal JS for smooth scrolling / mobile nav). No backend needed.
+
+* Layout: One-page scrolling site with these sections:
+
+  1. Sticky header / navigation
+  2. Hero
+  3. Who We Are
+  4. Services (cards grid)
+  5. How We Work (4-step process)
+  6. Testimonials (placeholder cards for now)
+  7. Final CTA section + footer
+
+* Fully responsive:
+
+  * Desktop: 2–3 column grids for services.
+  * Tablet: 2 columns.
+  * Mobile: 1 column stacked, mobile menu.
+
+---
+
+## 2. Brand & Styling
+
+* **Primary accent colour:** orange (use something like `#f97316` or similar); use it for buttons, icons, section labels, progress dots, etc.
+* **Secondary colour:** dark grey / charcoal for text, light grey backgrounds (`#f5f5f5` style).
+* **Typography:** clean sans-serif (e.g. Inter, Roboto or similar).
+* **Cards:** rounded corners, soft shadow, white background, subtle hover effect.
+* **Buttons:** pill or rounded buttons with solid orange background and white text, hover = slightly darker orange.
+* Overall feel: modern, trustworthy, professional, but not corporate-cold.
+
+---
+
+## 3. Structure & COPY TO USE
+
+### HEADER
+
+* Left: Logo placeholder text: **Orange Kiwi**
+* Right: Nav links (anchor scroll):
+
+  * Home
+  * Services
+  * How We Work
+  * Testimonials
+  * Contact
+* Rightmost: button **“Book a Consultation”** (orange).
+
+---
+
+### HERO SECTION
+
+**Headline:**
+
+> Modern Accounting for Businesses That Want Clarity, Control, and Better Decisions
+
+**Sub-headline:**
+
+> Accurate books, clear reporting, and practical guidance — so you always know where your business stands and what to do next.
+
+**Buttons:**
+
+* Primary: **Book a Consultation** (scrolls to contact / final CTA section)
+* Secondary (outline button): **View Services** (scrolls to Services section)
+
+**Layout:**
+Two-column on desktop:
+
+* Left: text + buttons
+* Right: image placeholder (e.g. dashboard/analytics style image).
+
+---
+
+### SECTION: WHO WE ARE
+
+Section title: **Who We Are**
+
+Text block:
+
+> A modern accounting partner for growing businesses
+>
+> Running a business demands more than submitting returns. You need clean data, reliable insights, and someone who helps you make sense of the numbers.
+>
+> We help you:
+> – Keep your financial data accurate and up-to-date
+> – Understand what’s really happening inside your business
+> – Make informed decisions with clear reporting
+> – Reduce manual work and process bottlenecks
+> – Improve cash flow and productivity
+> – Build accounting systems that scale with your business
+>
+> We combine strong financial know-how with smart cloud tools like Xero to make your operations smoother and more predictable.
+
+---
+
+### SECTION: SERVICES (CARD GRID)
+
+Section title: **What We Do**
+
+Create 4 cards in a responsive grid.
+
+#### Card 1 – Bookkeeping & Financial Operations
+
+> **Bookkeeping & Financial Operations**
+> You need reliable numbers to run your business. We make sure your books are accurate, automated, and always up-to-date.
+>
+> – Highly automated bill processing
+> – Invoices synced and ready to send
+> – Bank transactions integrated and reconciled
+> – Live cash-flow overview
+> – Debtors and creditors tracked in real time
+> – Automatic reminders based on account positions
+> – Cash-flow forecasts based on real bank data
+>
+> Clean books → clear decisions → fewer surprises.
+
+---
+
+#### Card 2 – Xero Implementation & Systems Architecture
+
+> **Xero Implementation & Systems Architecture**
+> Switching to Xero isn’t just a software change — it’s the chance to rebuild your financial systems so they actually work for you.
+>
+> We help you:
+> – Set up Xero correctly from day one
+> – Connect your tools so data only needs to be entered once
+> – Build workflows that reduce manual tasks
+> – Use real-time data instead of outdated spreadsheets
+> – Integrate add-ons for inventory, budgeting, consolidation, and more
+>
+> We design systems that give you clarity instead of clutter.
+
+---
+
+#### Card 3 – Management Accounting
+
+> **Management Accounting**
+> Good decisions rely on good information. We provide ongoing analysis and reporting that helps you understand the story behind your numbers.
+>
+> – Monthly performance reports
+> – Budgeting and forecasting
+> – Variance analysis
+> – KPI tracking
+> – Scenario planning
+> – Guidance on operational and financial decisions
+>
+> We meet with you regularly to review progress, adjust plans, and keep you focused on your goals — not just year-end compliance.
+
+---
+
+#### Card 4 – Risk Management
+
+> **Risk Management**
+> Every business faces risks — cash flow, market changes, pricing pressure, operational bottlenecks. We help you understand them and act before they become problems.
+>
+> – Risk assessments tailored to your business
+> – Strategies to reduce financial exposure
+> – Practical systems to prevent avoidable errors
+> – Clear frameworks for decision-making
+>
+> This is a bespoke service, shaped around your business model and goals.
+
+---
+
+### SECTION: HOW WE WORK (4-STEP PROCESS)
+
+Section label badge: **Our Process** (small pill in orange).
+Section title: **How We Work With You**
+
+Subtitle:
+
+> A simple, practical process that delivers clarity and better decisions for your business.
+
+Use a horizontal 4-step timeline (like the inspo):
+
+1. **Initial Consultation**
+
+   > We start with a conversation to understand your business, current financial setup, and goals.
+
+2. **Review & Strategy**
+
+   > We review your systems and numbers, then outline practical improvements for your bookkeeping, reporting, and workflows.
+
+3. **Implementation**
+
+   > We set up or refine your tools and processes, and work closely with your team to make the transition smooth.
+
+4. **Ongoing Support**
+
+   > We stay involved with regular check-ins, reporting, and advice so you keep improving — not just once a year.
+
+---
+
+### SECTION: TESTIMONIALS (PLACEHOLDERS)
+
+Section label: **Testimonials**
+Title: **What Our Clients Say**
+
+Create 3 testimonial cards with placeholder content that the client can replace later, e.g.:
+
+* Name, role, company
+* Short 2–3 sentence quote
+* 5-star rating icons
+
+Example placeholder copy (can be used verbatim until real quotes are available):
+
+> “Orange Kiwi helped us finally understand our numbers. Their guidance and clear reporting have made day-to-day decisions much easier.”
+
+---
+
+### FINAL CTA SECTION
+
+Background: subtle orange/green-to-white gradient (but keep orange as main brand).
+
+Title:
+
+> Let’s Get Clarity Around Your Finances
+
+Subtitle:
+
+> Take the first step towards better financial control. Schedule a free consultation today.
+
+Buttons (centered):
+
+* **Schedule Free Consultation** (primary)
+* **Email Us** (secondary outline, opens mailto).
+
+Under buttons, add 2–3 simple stats placeholders (to be edited later), e.g.:
+
+* “10+ years experience”
+* “Cloud-based systems”
+* “Ongoing support, not just year-end”
+
+---
+
+### FOOTER
+
+* Left: “© Orange Kiwi – All rights reserved.”
+* Right: Email + phone placeholders and a LinkedIn icon.
+
+---
+
+That’s the full brief + copy.
+You can feed this directly into Replit AI or a dev and ask it to “build the page exactly according to this brief.” If you want, next step I can:
+
+* Turn this into a React/Tailwind component spec, or
+* Write the actual HTML/CSS skeleton you can paste into Replit.
