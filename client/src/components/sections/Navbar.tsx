@@ -30,14 +30,23 @@ export function Navbar() {
           </span>
         </a>
 
-        <Button 
-          className="rounded-full px-6 font-semibold shadow-lg shadow-orange-500/20 hover:shadow-orange-500/40 transition-all duration-300 bg-foreground text-white hover:bg-foreground/90 hover:scale-105 active:scale-95"
-          asChild
-        >
-          <a href="https://tidycal.com/blair5/30-minute-meeting" target="_blank" rel="noopener noreferrer">
-            Book a Consultation
+        <div className="flex items-center gap-6 md:gap-8">
+          <a
+            href="/market-entry"
+            className="hidden sm:inline-block text-sm font-semibold text-foreground/80 hover:text-orange-600 transition-colors duration-300"
+          >
+            Market Entry
           </a>
-        </Button>
+
+          <Button
+            className="rounded-full px-6 font-semibold shadow-lg shadow-orange-500/20 hover:shadow-orange-500/40 transition-all duration-300 bg-foreground text-white hover:bg-foreground/90 hover:scale-105 active:scale-95"
+            asChild
+          >
+            <a href="https://tidycal.com/blair5/30-minute-meeting" target="_blank" rel="noopener noreferrer">
+              Book a Consultation
+            </a>
+          </Button>
+        </div>
       </div>
     </nav>
   );
