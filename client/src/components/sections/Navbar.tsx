@@ -37,12 +37,6 @@ export function Navbar() {
           >
             Market Entry
           </a>
-          <a
-            href="/blog/"
-            className="text-xs sm:text-sm font-semibold text-foreground/80 hover:text-orange-600 transition-colors duration-300"
-          >
-            Blog
-          </a>
 
           <Button
             className="rounded-full px-4 sm:px-6 text-xs sm:text-sm font-semibold shadow-lg shadow-orange-500/20 hover:shadow-orange-500/40 transition-all duration-300 bg-foreground text-white hover:bg-foreground/90 hover:scale-105 active:scale-95"
