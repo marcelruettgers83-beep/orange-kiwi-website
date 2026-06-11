@@ -2,7 +2,14 @@ import { Reveal } from "@/components/ui/reveal";
 import { ArrowUpRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
-const services = [
+const services: Array<{
+  title: string;
+  description: string;
+  features: string[];
+  highlight: string;
+  guideHref?: string;
+  guideLabel?: string;
+}> = [
   {
     title: "Bookkeeping & Financial Operations",
     description: "You need reliable numbers to run your business. We make sure your books are accurate, automated, and always up-to-date.",
@@ -15,11 +22,13 @@ const services = [
       "Automatic reminders based on account positions",
       "Cash-flow forecasts based on real bank data"
     ],
-    highlight: "Clean books → clear decisions → fewer surprises."
+    highlight: "Clean books → clear decisions → fewer surprises.",
+    guideHref: "/blog/dutch-bv-accounting-deadlines/",
+    guideLabel: "Read the Dutch BV deadline guide"
   },
   {
     title: "Xero Implementation & Systems Architecture",
-    description: "Switching to Xero isn’t just a software change — it’s the chance to rebuild your financial systems so they actually work for you.",
+    description: "Switching to Xero is a chance to rebuild your financial systems so they fit how your business actually works.",
     features: [
       "Set up Xero correctly from day one",
       "Connect your tools so data only needs to be entered once",
@@ -27,7 +36,9 @@ const services = [
       "Use real-time data instead of outdated spreadsheets",
       "Integrate add-ons for inventory, budgeting, consolidation, and more"
     ],
-    highlight: "We design systems that give you clarity instead of clutter."
+    highlight: "We design systems that give you clarity instead of clutter.",
+    guideHref: "/blog/xero-setup-dutch-bv/",
+    guideLabel: "Read the Xero setup guide"
   },
   {
     title: "Management Accounting",
@@ -40,11 +51,13 @@ const services = [
       "Scenario planning",
       "Guidance on operational and financial decisions"
     ],
-    highlight: "We meet with you regularly to review progress, adjust plans, and keep you focused on your goals — not just year-end compliance."
+    highlight: "We meet regularly to review progress, adjust plans, and keep the numbers useful between year-end filings.",
+    guideHref: "/blog/english-speaking-accountant-amsterdam-founder-checklist/",
+    guideLabel: "Read the accountant checklist"
   },
   {
     title: "Risk Management",
-    description: "Every business faces risks — cash flow, market changes, pricing pressure, operational bottlenecks. We help you understand them and act before they become problems.",
+    description: "Every business has risk: cash flow, market changes, pricing pressure, and operational bottlenecks. We help you understand them early enough to act.",
     features: [
       "Risk assessments tailored to your business",
       "Strategies to reduce financial exposure",
@@ -66,7 +79,7 @@ export function Services() {
               Comprehensive Financial Solutions
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              We offer a wide range of financial and consulting services designed to meet your unique business needs and drive sustainable growth.
+              Financial and consulting support for bookkeeping, reporting, Xero, and decisions that need cleaner numbers.
             </p>
           </Reveal>
         </div>
@@ -100,6 +113,15 @@ export function Services() {
                         <p className="font-medium text-orange-600 italic">
                             {service.highlight}
                         </p>
+                        {service.guideHref && (
+                          <a
+                            href={service.guideHref}
+                            className="mt-4 inline-flex items-center gap-2 text-sm font-bold text-orange-700 hover:text-orange-800 transition-colors"
+                          >
+                            {service.guideLabel}
+                            <ArrowUpRight className="w-4 h-4" />
+                          </a>
+                        )}
                     </div>
                   </CardContent>
                 </Card>

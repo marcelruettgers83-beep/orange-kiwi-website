@@ -4,9 +4,42 @@
   "installCommand": "npm ci",
   "buildCommand": "npm run build",
   "outputDirectory": "dist/public",
+  "redirects": [
+    {
+      "source": "/blog",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/english-speaking-accountant-amsterdam-founder-checklist",
+      "destination": "/blog/english-speaking-accountant-amsterdam-founder-checklist/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/xero-setup-dutch-bv",
+      "destination": "/blog/xero-setup-dutch-bv/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/dutch-bv-accounting-deadlines",
+      "destination": "/blog/dutch-bv-accounting-deadlines/",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/blog/images/:path*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ],
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/market-entry",
       "destination": "/index.html"
     }
   ]
