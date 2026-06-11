@@ -7,8 +7,6 @@ const services: Array<{
   description: string;
   features: string[];
   highlight: string;
-  guideHref?: string;
-  guideLabel?: string;
 }> = [
   {
     title: "Bookkeeping & Financial Operations",
@@ -22,9 +20,7 @@ const services: Array<{
       "Automatic reminders based on account positions",
       "Cash-flow forecasts based on real bank data"
     ],
-    highlight: "Clean books → clear decisions → fewer surprises.",
-    guideHref: "/blog/dutch-bv-accounting-deadlines/",
-    guideLabel: "Read the Dutch BV deadline guide"
+    highlight: "Clean books → clear decisions → fewer surprises."
   },
   {
     title: "Xero Implementation & Systems Architecture",
@@ -36,9 +32,7 @@ const services: Array<{
       "Use real-time data instead of outdated spreadsheets",
       "Integrate add-ons for inventory, budgeting, consolidation, and more"
     ],
-    highlight: "We design systems that give you clarity instead of clutter.",
-    guideHref: "/blog/xero-setup-dutch-bv/",
-    guideLabel: "Read the Xero setup guide"
+    highlight: "We design systems that give you clarity instead of clutter."
   },
   {
     title: "Management Accounting",
@@ -51,9 +45,7 @@ const services: Array<{
       "Scenario planning",
       "Guidance on operational and financial decisions"
     ],
-    highlight: "We meet regularly to review progress, adjust plans, and keep the numbers useful between year-end filings.",
-    guideHref: "/blog/english-speaking-accountant-amsterdam-founder-checklist/",
-    guideLabel: "Read the accountant checklist"
+    highlight: "We meet regularly to review progress, adjust plans, and keep the numbers useful between year-end filings."
   },
   {
     title: "Risk Management",
@@ -113,15 +105,6 @@ export function Services() {
                         <p className="font-medium text-orange-600 italic">
                             {service.highlight}
                         </p>
-                        {service.guideHref && (
-                          <a
-                            href={service.guideHref}
-                            className="mt-4 inline-flex items-center gap-2 text-sm font-bold text-orange-700 hover:text-orange-800 transition-colors"
-                          >
-                            {service.guideLabel}
-                            <ArrowUpRight className="w-4 h-4" />
-                          </a>
-                        )}
                     </div>
                   </CardContent>
                 </Card>
